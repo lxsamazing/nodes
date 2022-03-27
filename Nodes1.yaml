@@ -5,40 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】, server: tw01.xiaocloud.icu, port: 20139, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 【V2】日本-05-迪士尼+, server: jp05.xiaocloud.icu, port: 20528, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】, server: us06.xiaocloud.icu, port: 20654, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡02, server: sg02.xiaocloud.icu, port: 20265, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡03, server: sg03.xiaocloud.icu, port: 20366, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡04, server: sg04.xiaocloud.icu, port: 20467, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡05, server: sg05.xiaocloud.icu, port: 20568, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡06-联通, server: sg06.xiaocloud.icu, port: 20669, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡07-联通, server: sg07.xiaocloud.icu, port: 20770, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡08-联通, server: sg08.xiaocloud.icu, port: 20871, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡09-联通, server: sg09.xiaocloud.icu, port: 20972, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-01, server: jp01.xiaocloud.icu, port: 20124, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-02, server: jp02.xiaocloud.icu, port: 20225, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-03, server: jp03.xiaocloud.icu, port: 20326, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-04, server: jp04.xiaocloud.icu, port: 20427, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-01【NETFLIX-非自制剧】, server: us01.xiaocloud.icu, port: 20149, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-02【NETFLIX-非自制剧】, server: us02.xiaocloud.icu, port: 20250, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-03【NETFLIX-非自制剧】, server: us03.xiaocloud.icu, port: 20351, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-01【迪士尼+】, server: hk01.xiaocloud.icu, port: 20104, type: vmess, uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技), server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
-  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技) 2, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
-  - {name: 🇸🇬 _新加坡_(TG/油管@阿伟科技), server: singapore.free1.shopvpn.net, port: 80, type: vmess, uuid: 2e2d652c-5826-40fb-b7b7-38d2157cbd51, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: singapore.free1.shopvpn.net}}
-  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技) 3, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
-  - {name: 🇸🇬 新加坡高级直连⑤-奈飞专用, server: xjp05.yuejiasu.com, port: 5311, type: vmess, uuid: 24b5c7d2-2d22-37c7-82c2-e2e86affecc8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 油管 TG 8度科技, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 2, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 3, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 4, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 5, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 6, server: 183.232.56.161, port: 1301, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 7, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 8, server: tw1.qingyun123.xyz, port: 10050, type: trojan, password: 8c6d9c1c-bd8c-432f-a573-a7774c12ffbd, sni: tw1.qingyun123.xyz, skip-cert-verify: true}
+  - {name: 油管 TG 8度科技 9, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 10, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 11, server: 183.232.56.161, port: 9121, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 12, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 13, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 14, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 15, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.25.49}}
+  - {name: 油管 TG 8度科技 16, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 17, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 18, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.25.49}}
+  - {name: 油管 TG 8度科技 19, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 20, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 21, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.217.108.182}}
+  - {name: 油管 TG 8度科技 22, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 23, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 24, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 25, server: 183.232.56.161, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 26, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 27, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 28, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 29, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 30, server: 183.232.56.161, port: 1612, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 31, server: 183.232.56.161, port: 3002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 32, server: 52.131.222.178, port: 51011, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 33, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 34, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 35, server: 101.230.149.1, port: 1002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 36, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 37, server: 183.232.56.161, port: 1951, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 38, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 39, server: 183.232.56.161, port: 9121, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 40, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 41, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 42, server: 183.232.56.161, port: 3002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 43, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 44, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 45, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}}
+  - {name: 油管 TG 8度科技 46, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 47, server: in1.qingyun123.xyz, port: 443, type: trojan, password: 8c6d9c1c-bd8c-432f-a573-a7774c12ffbd, sni: in1.qingyun123.xyz, skip-cert-verify: true}
+  - {name: 油管 TG 8度科技 48, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 49, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 50, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 51, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 52, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.18.191}}
+  - {name: 油管 TG 8度科技 53, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 54, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 55, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 56, server: 183.232.56.161, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 57, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 58, server: 183.232.56.161, port: 1706, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 59, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 60, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 61, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 62, server: tj-jp01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-jp01.yiyodns.xyz, skip-cert-verify: true}
+  - {name: 油管 TG 8度科技 63, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 64, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.217.108.182}}
+  - {name: 油管 TG 8度科技 65, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 66, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 67, server: 183.232.56.161, port: 9121, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 68, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 69, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.19.224}}
+  - {name: 油管 TG 8度科技 70, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 71, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 72, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 73, server: 183.232.56.161, port: 3001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 74, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 75, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管+TG+8度科技, server: 38.114.114.69, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 油管 TG 8度科技 76, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 77, server: 183.232.56.161, port: 1700, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 78, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 79, server: 183.232.56.161, port: 1201, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 80, server: 64.27.30.217, port: 21418, type: vmess, uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 油管 TG 8度科技 81, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 82, server: 52.131.222.178, port: 51011, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 83, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: 8c6d9c1c-bd8c-432f-a573-a7774c12ffbd, sni: de1.qingyun123.xyz, skip-cert-verify: true}
+  - {name: 油管 TG 8度科技 84, server: 183.232.56.161, port: 1311, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 85, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 86, server: 183.232.56.161, port: 1704, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 87, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管 TG 8度科技 88, server: 183.232.56.161, port: 9111, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 89, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 101.230.149.1}}
+  - {name: 油管+TG+8度科技 2, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 油管+TG+8度科技 3, server: 167.88.63.108, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 油管 TG 8度科技 90, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 101.230.149.1}}
+  - {name: 油管+TG+8度科技 4, server: 167.88.63.108, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 油管+TG+8度科技 5, server: 167.88.63.108, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 油管 TG 8度科技 91, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 101.230.149.1}}
+  - {name: 油管+TG+8度科技 6, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 油管+TG+8度科技 7, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 油管 TG 8度科技 92, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
+  - {name: 油管+TG+8度科技 8, server: 167.88.63.108, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 油管 TG 8度科技 93, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管+TG+8度科技 9, server: 167.88.63.108, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 油管 TG 8度科技 94, server: 183.232.56.161, port: 1611, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管 TG 8度科技 95, server: 183.232.56.161, port: 1211, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管+TG+8度科技 10, server: 167.88.63.108, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 油管+TG+8度科技 11, server: 167.88.63.108, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 油管 TG 8度科技 96, server: 52.131.222.178, port: 51011, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}}
+  - {name: 油管 TG 8度科技 97, server: 183.232.56.161, port: 1312, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
+  - {name: 油管+TG+8度科技 12, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 油管 TG 8度科技 98, server: 183.232.56.161, port: 1212, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}}
   - {name: 🇸🇬 新加坡标准-解锁奈飞②, server: xjp02.vpnjc.cc, port: 8495, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇯🇵 日本高速备用节点⑩, server: jp20.vpnjc.cc, port: 8886, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇯🇵 日本高速备用节点③, server: jp13.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技), server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
   - {name: 🇯🇵 日本高速备用节点④, server: jp14.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
   - {name: 🇺🇸 美国高速CN2直连①（禁止下载）, server: usa01.vpnjc.cc, port: 8757, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇯🇵 日本高速备用节点②, server: jp12.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇯🇵 日本高速备用节点⑨, server: jp19.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
   - {name: 🇯🇵 日本高速备用节点⑤, server: jp15.vpnjc.cc, port: 8886, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇸🇬 新加坡标准-解锁奈飞①, server: xjp01.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: 🇺🇸 US1(AZ), server: 20.124.107.207, port: 11794, type: vmess, uuid: 8c30e7e4-2fdc-4a95-c58b-43e6ac7f0f48, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技) 2, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
+  - {name: 🇯🇵 日本高速备用节点③, server: jp13.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 🇯🇵 日本高速备用节点⑨, server: jp19.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 🇨🇳 _台湾_(TG/油管@阿伟科技) 3, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
   - {name: 🇬🇧 英国高速直连⑤, server: uk05.vpnjc.cc, port: 8485, type: vmess, uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -46,40 +131,125 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: ♻️ 自动选择
     type: url-test
@@ -87,40 +257,125 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: 🌍 国外媒体
     type: select
@@ -128,160 +383,500 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
   - name: 🎯 全球直连
     type: select
@@ -305,40 +900,125 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 【V2】台湾-01-【NETFLIX-非自制剧】
-      - 🇯🇵 【V2】日本-05-迪士尼+
-      - 🇺🇸 【V2】美国-06【NETFLIX丨迪士尼+】
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡06-联通
-      - 🇸🇬 新加坡07-联通
-      - 🇸🇬 新加坡08-联通
-      - 🇸🇬 新加坡09-联通
-      - 🇯🇵 日本-01
-      - 🇯🇵 日本-02
-      - 🇯🇵 日本-03
-      - 🇯🇵 日本-04
-      - 🇺🇸 美国-01【NETFLIX-非自制剧】
-      - 🇺🇸 美国-02【NETFLIX-非自制剧】
-      - 🇺🇸 美国-03【NETFLIX-非自制剧】
-      - 🇭🇰 香港-01【迪士尼+】
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
-      - 🇸🇬 _新加坡_(TG/油管@阿伟科技)
-      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
-      - 🇸🇬 新加坡高级直连⑤-奈飞专用
+      - 油管 TG 8度科技
+      - 油管 TG 8度科技 2
+      - 油管 TG 8度科技 3
+      - 油管 TG 8度科技 4
+      - 油管 TG 8度科技 5
+      - 油管 TG 8度科技 6
+      - 油管 TG 8度科技 7
+      - 油管 TG 8度科技 8
+      - 油管 TG 8度科技 9
+      - 油管 TG 8度科技 10
+      - 油管 TG 8度科技 11
+      - 油管 TG 8度科技 12
+      - 油管 TG 8度科技 13
+      - 油管 TG 8度科技 14
+      - 油管 TG 8度科技 15
+      - 油管 TG 8度科技 16
+      - 油管 TG 8度科技 17
+      - 油管 TG 8度科技 18
+      - 油管 TG 8度科技 19
+      - 油管 TG 8度科技 20
+      - 油管 TG 8度科技 21
+      - 油管 TG 8度科技 22
+      - 油管 TG 8度科技 23
+      - 油管 TG 8度科技 24
+      - 油管 TG 8度科技 25
+      - 油管 TG 8度科技 26
+      - 油管 TG 8度科技 27
+      - 油管 TG 8度科技 28
+      - 油管 TG 8度科技 29
+      - 油管 TG 8度科技 30
+      - 油管 TG 8度科技 31
+      - 油管 TG 8度科技 32
+      - 油管 TG 8度科技 33
+      - 油管 TG 8度科技 34
+      - 油管 TG 8度科技 35
+      - 油管 TG 8度科技 36
+      - 油管 TG 8度科技 37
+      - 油管 TG 8度科技 38
+      - 油管 TG 8度科技 39
+      - 油管 TG 8度科技 40
+      - 油管 TG 8度科技 41
+      - 油管 TG 8度科技 42
+      - 油管 TG 8度科技 43
+      - 油管 TG 8度科技 44
+      - 油管 TG 8度科技 45
+      - 油管 TG 8度科技 46
+      - 油管 TG 8度科技 47
+      - 油管 TG 8度科技 48
+      - 油管 TG 8度科技 49
+      - 油管 TG 8度科技 50
+      - 油管 TG 8度科技 51
+      - 油管 TG 8度科技 52
+      - 油管 TG 8度科技 53
+      - 油管 TG 8度科技 54
+      - 油管 TG 8度科技 55
+      - 油管 TG 8度科技 56
+      - 油管 TG 8度科技 57
+      - 油管 TG 8度科技 58
+      - 油管 TG 8度科技 59
+      - 油管 TG 8度科技 60
+      - 油管 TG 8度科技 61
+      - 油管 TG 8度科技 62
+      - 油管 TG 8度科技 63
+      - 油管 TG 8度科技 64
+      - 油管 TG 8度科技 65
+      - 油管 TG 8度科技 66
+      - 油管 TG 8度科技 67
+      - 油管 TG 8度科技 68
+      - 油管 TG 8度科技 69
+      - 油管 TG 8度科技 70
+      - 油管 TG 8度科技 71
+      - 油管 TG 8度科技 72
+      - 油管 TG 8度科技 73
+      - 油管 TG 8度科技 74
+      - 油管 TG 8度科技 75
+      - 油管+TG+8度科技
+      - 油管 TG 8度科技 76
+      - 油管 TG 8度科技 77
+      - 油管 TG 8度科技 78
+      - 油管 TG 8度科技 79
+      - 油管 TG 8度科技 80
+      - 油管 TG 8度科技 81
+      - 油管 TG 8度科技 82
+      - 油管 TG 8度科技 83
+      - 油管 TG 8度科技 84
+      - 油管 TG 8度科技 85
+      - 油管 TG 8度科技 86
+      - 油管 TG 8度科技 87
+      - 油管 TG 8度科技 88
+      - 油管 TG 8度科技 89
+      - 油管+TG+8度科技 2
+      - 油管+TG+8度科技 3
+      - 油管 TG 8度科技 90
+      - 油管+TG+8度科技 4
+      - 油管+TG+8度科技 5
+      - 油管 TG 8度科技 91
+      - 油管+TG+8度科技 6
+      - 油管+TG+8度科技 7
+      - 油管 TG 8度科技 92
+      - 油管+TG+8度科技 8
+      - 油管 TG 8度科技 93
+      - 油管+TG+8度科技 9
+      - 油管 TG 8度科技 94
+      - 油管 TG 8度科技 95
+      - 油管+TG+8度科技 10
+      - 油管+TG+8度科技 11
+      - 油管 TG 8度科技 96
+      - 油管 TG 8度科技 97
+      - 油管+TG+8度科技 12
+      - 油管 TG 8度科技 98
       - 🇸🇬 新加坡标准-解锁奈飞②
-      - 🇯🇵 日本高速备用节点⑩
-      - 🇯🇵 日本高速备用节点③
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技)
       - 🇯🇵 日本高速备用节点④
       - 🇺🇸 美国高速CN2直连①（禁止下载）
-      - 🇯🇵 日本高速备用节点②
-      - 🇯🇵 日本高速备用节点⑨
       - 🇯🇵 日本高速备用节点⑤
-      - 🇸🇬 新加坡标准-解锁奈飞①
-      - 🇺🇸 US1(AZ)
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 2
+      - 🇯🇵 日本高速备用节点③
+      - 🇯🇵 日本高速备用节点⑨
+      - 🇨🇳 _台湾_(TG/油管@阿伟科技) 3
       - 🇬🇧 英国高速直连⑤
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
